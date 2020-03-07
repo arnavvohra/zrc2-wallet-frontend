@@ -1,0 +1,214 @@
+.signUpForm {
+  margin: auto;
+  margin-top: 20px;
+}
+
+.signUpBtn {
+  margin-top: 10px;
+}
+
+.copyClipBoardBtn {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none !important;
+}
+
+.forgotPassword {
+  margin-top: 5px;
+}
+
+.main-footer {
+  bottom: 0 !important;
+  width: 100%;
+  align-items: center;
+}
+
+.signup-screen-footer {
+  position: absolute;
+  bottom: 0 !important;
+  width: 100%;
+  height: 55px;
+  align-items: center;
+}
+
+.registerDappsBtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.noDappsContent {
+  margin: auto;
+  text-align: center;
+}
+
+.notficationHandle {
+  margin-top: 15px;
+}
+
+.verifyEmailLink {
+  color: white;
+  text-decoration: underline;
+}
+
+.verifyEmailLink:hover {
+  color: white;
+}
+
+.dappsList {
+  margin-bottom: 30px;
+}
+
+.announcements {
+  margin-bottom: 60px;
+}
+
+.dappView {
+  margin-left: 20px;
+}
+
+.deployedOptions {
+  width: 20%;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.dappBox {
+  margin: auto;
+}
+
+.deployedOn {
+  margin-top: 3px;
+}
+
+.addSmartContract {
+  position: absolute;
+  right: 20;
+  bottom: 0;
+}
+
+.closeModal {
+  width: 18%;
+  position: absolute;
+  right: 10px;
+  top: 11px;
+}
+
+.addApi {
+  font-weight: bold;
+  font-size: "larger";
+}
+
+.addCustomApi {
+  width: 100px;
+  margin-top: 29px;
+}
+
+.chooseApiType {
+  margin: auto;
+  text-align: center;
+}
+
+.chooseApiTypeBtn {
+  height: 100px;
+  width: 100px;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.dappRegistration{
+  color : green;
+  text-align:center;
+}
+
+.announcement-subtitle {
+  color: #999;
+  font-size: .9em;
+}
+
+.data-count {
+  font-size: 60px;
+  text-align: center;
+  flex: 1 1;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.data-label {
+  color: #3d5170;
+  text-align: center;
+  margin-top: auto;
+  font-size: 20px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 0em;
+}
+
+.graphs-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.graphs-container-header {
+  font-size: 1.5em;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin: 10px;
+  padding: 5px;
+}
+
+.graph-container {
+  background: #ddd;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
+.count-graph-container {
+  padding-bottom: 0px;
+}
+
+.bar-graph-container {
+  height: auto;
+}
+
+.pie-chart {
+  padding: 0px!important;
+}
+
+.loading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#transaction-graph-loading-message {
+  width: 1200px;
+}
+
+.LegendRoot-root-2 {
+  overflow-y: scroll;
+  height: 150px;
+}
