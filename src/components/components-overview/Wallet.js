@@ -38,7 +38,7 @@ export default class Dapps extends React.Component {
       address: "",
       selectedAddress: "",
       selectedBalance: 0,
-      zilBalance:null,
+      zilBalance:0,
       zilPayLogin:'false'
     };
     this.toggle = this.toggle.bind(this);
