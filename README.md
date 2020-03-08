@@ -2,7 +2,7 @@
 
 ## About
 
-This repo contains the front-end code for zrc2 wallet, which allows a user to store, send and receive zrc2 tokens on the Zilliqa developer testnet (https://dev-api.zilliqa.com/). Use this repo with zrc2-wallet-backend to test the functionality of the zrc2 wallet.
+This repo contains the front-end code for zrc2 wallet, which allows a user to store, send and receive zrc2 tokens on the Zilliqa developer testnet (https://dev-api.zilliqa.com/). Use this repo with [zrc2-wallet-backend](https://github.com/arnavvohra/zrc2-wallet-backend) to test the functionality of the zrc2 wallet.
 
 ## Setup
 
@@ -23,6 +23,26 @@ module.exports = config;
 
 ```
 ## Sample Data
+Sample Keystore File can be found at: 
+
+src/zilliqaSampleKeyStoreFile.json
+
+Passphrase : zilliqa@123
+
+Add fungible token with the following address on Add Token Screen : zil1glvua6569k3rm34jm94pdalmlzz9spn965uudj
+The above address obtained through the keystore file has a balance of the fungible token already.
+## Screenshots
+Login Screen - Keystore File already uploaded
+<img src = "src/images/screenshots/loginScreen.png">
+
+Wallet Home Screen
+<img src = "src/images/screenshots/walletScreen.png">
+
+Add Token Screen
+<img src = "src/images/screenshots/addToken.png">
+
+Send Transaction Screen
+<img src = "src/images/screenshots/sendTransactionScreen.png">
 
 
 # Additional Notes
