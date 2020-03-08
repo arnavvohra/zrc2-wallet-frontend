@@ -206,7 +206,7 @@ export default class Dapps extends React.Component {
                         Token Contract Address :
                         {" " + toBech32Address(token.contractAddress)}
                         <br/>
-                        {" ByStr20 : " + token.contractAddress}
+                        {"Contract Address ByStr20 : " + token.contractAddress}
                       </span><br />
                     </p>
                       <Button

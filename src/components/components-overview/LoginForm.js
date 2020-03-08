@@ -59,16 +59,18 @@ export default class LoginForm extends React.Component {
     try {
       this.setState({ loginBtnText: "Logging In..." });
       let keystore = JSON.parse(this.state.encryptedWallet);
-      console.log("keystore",keystore);
-      console.log("passphrase",this.state.passphrase);
       const pk = await decryptPrivateKey(this.state.passphrase, keystore);
       this.setState({ privateKey: pk });
       if(pk){
       const address =  getAddressFromPrivateKey(pk);
       this.setState({ address: address });
         this.login();
+      }else{
+        this.setState({
+          isInvalidPassphrase: true,
+          passphraseErrorText: "Enter a valid passphrase"
+        });
       }
-      console.log("pk",pk)
     } catch (error) {
     }
   }
@@ -160,10 +162,11 @@ export default class LoginForm extends React.Component {
                       type="password"
                       placeholder="Passphrase"
                       value={this.state.passphrase}
+                      invalid={this.state.isInvalidPassphrase}
                       onChange={this.onChangePassphrase}
                     />
                     <FormFeedback invalid>
-                      {this.state.passwordErrorText}
+                      {this.state.passphraseErrorText}
                     </FormFeedback>
                   </Col>
                 </Row>
