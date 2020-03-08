@@ -32,16 +32,21 @@ Passphrase : zilliqa@123
 Add fungible token with the following address on Add Token Screen : zil1glvua6569k3rm34jm94pdalmlzz9spn965uudj
 The above address obtained through the keystore file has a balance of the fungible token already.
 ## Screenshots
+
 Login Screen - Keystore File already uploaded
+
 <img src = "src/images/screenshots/loginScreen.png">
 
 Wallet Home Screen
+
 <img src = "src/images/screenshots/walletScreen.png">
 
 Add Token Screen
+
 <img src = "src/images/screenshots/addToken.png">
 
 Send Transaction Screen
+
 <img src = "src/images/screenshots/sendTransactionScreen.png">
 
 
