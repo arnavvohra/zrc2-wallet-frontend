@@ -22,6 +22,11 @@ config.apiUrl = "http://localhost:4111";
 module.exports = config;
 
 ```
+
+# Majority of the Code
+The code related to login can be found at 'unlock' method, [link](https://github.com/arnavvohra/zrc2-wallet-frontend/blob/master/src/components/components-overview/LoginForm.js).
+The majority of the code of sending transaction can be found at 'sendTransaction' method, [link](https://github.com/arnavvohra/zrc2-wallet-frontend/blob/master/src/components/components-overview/Wallet.js). This link also contains methods related to showing user balance.
+
 ## Sample Data
 Sample Keystore File can be found at: 
 
