@@ -297,10 +297,7 @@ export default class Dapps extends React.Component {
               amount: new BN(0),
               gasPrice: myGasPrice,
               gasLimit: Long.fromNumber(10000),
-          },
-          33,
-          100,
-          false,
+          }
       );
       console.log(JSON.stringify(callTx.receipt, null, 4));
 
