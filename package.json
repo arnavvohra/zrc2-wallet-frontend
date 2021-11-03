@@ -33,7 +33,7 @@
     "shards-react": "^1.0.0",
     "shortid": "^2.2.14",
     "tslib": "^1.11.1",
-    "validator": "^10.11.0"
+    "validator": "^13.7.0"
   },
   "scripts": {
     "start": "react-scripts start"
