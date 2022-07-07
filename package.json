@@ -20,7 +20,7 @@
     "flux": "^3.1.3",
     "lodash.find": "^4.6.0",
     "dapp-wallet-util": "https://github.com/cryptolandtech/dapp-wallet-util.git",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "react": "^16.6.3",
     "react-copy-to-clipboard": "^5.0.2",
     "react-dom": "^16.6.3",
